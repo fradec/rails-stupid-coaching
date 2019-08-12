@@ -1,8 +1,11 @@
+<div class="card" id="you">
+  <p><%= @ask %></p>
+  <p><em>-You</em></p>
+</div>
 
-<p><%= @ask %></p>
-<p><em>-You</em></p>
-
-<p><%= @answer %></p>
-<p><em>-Your coach</em></p>
+<div class="card" id="coach">
+  <p><%= @answer %></p>
+  <p><em>-Your coach</em></p>
+</div>
 
 <%= link_to 'Ask a new question', ask_path %>
